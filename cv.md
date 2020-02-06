@@ -20,4 +20,5 @@ HTML, CSS, basics JS, React, Python, SQL, Flask, Bootstrap, Sense of humor.
 I am engaged in the production of ["Diabot"](https://github.com/igorburenko/diabot_react_app). This is a medical single page application that can be used by patients with diabetes to calculate the dose of insulin. The main technology is ReactJS. I also have experience in producing Python instant messenger bots. Some experience in programming Arduino microcontrollers.
 ### **Education**
 Graduated Odessa Pedagogical University at 2006. I attended CS50 course, several online courses JS, HTML and CSS, Python at UDEMY.
-8. My English level is A2-B1.
+### **English**
+My English level is A2-B1.
