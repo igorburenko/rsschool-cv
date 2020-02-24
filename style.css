@@ -76,9 +76,20 @@ body {
 
 .header__title {
     margin-left: 45px;
+}
+
+.header__title-main {
+    text-align: center;
     border-bottom: 1px solid #D9C8B4;
     font-size: 27px;
     color: rgb(90, 90, 90);
+    font-weight: 500;
+}
+
+.header__subtitle {
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .contacts {
@@ -94,6 +105,7 @@ body {
     border-bottom: 1px solid #D9C8B4;
     margin-bottom: 11px;
     color: rgb(90, 90, 90);
+    font-weight: 500;
 }
 
 .contacts__list {
@@ -122,6 +134,7 @@ body {
 .item-main__title {
     margin: 0 0 7px 10px;
     color: rgb(90, 90, 90);
+    font-weight: 500;
 }
 
 .item-main__text {
