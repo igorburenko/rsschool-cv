@@ -1,6 +1,57 @@
+/* Сброс css */
+ul {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+ul,
+ol[class] {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active,
+a:focus,
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: none;
+}
+
+
 body {
+    color: rgb(75, 75, 75);
     font-family: Helvetica, sans-serif;
-    color: rgb(58, 58, 58);
 }
 
 .content {
@@ -9,73 +60,83 @@ body {
     margin-right: auto;
 }
 
-header {
+.header {
     background-color: lightgray;
     background-image: url(img/header05.jpg);
     background-size: 100%;
     display: flex;
     align-items: center;
-
 }
 
-img {
+.header__image {
     border-radius: 50%;
     border: 1px solid rgba(217, 200, 180, 0.219);
-    margin: 5px;
+    margin: 10px 0 10px 20px;
 }
 
-h1 {
-    display: inline-block;
-    margin-left: 20px;
+.header__title {
+    margin-left: 45px;
     border-bottom: 1px solid #D9C8B4;
+    font-size: 27px;
+    color: rgb(90, 90, 90);
 }
 
-.contacts{
-    display: inline-block;
-    text-align: right;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: 15px;
+.contacts {
+
 }
 
-h3 {
+.header__contacts {
+    margin: auto 35px auto auto;
+}
+
+.contacts__title {
     display: inline-block;
     border-bottom: 1px solid #D9C8B4;
-    margin-bottom: 0;
+    margin-bottom: 11px;
+    color: rgb(90, 90, 90);
 }
 
-li {
-    list-style-type: none;
+.contacts__list {
+
 }
 
-main {
+.contacts__list-item {
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: rgb(107, 107, 107);
+}
+
+.contacts__list-item a {
+    color: rgb(75, 75, 75);
+}
+
+.main-block {
     background-color: rgba(217, 200, 180, 0.452);
-    padding: 15px;
+    padding: 20px 25px;
 }
 
-h3:first-child {
-    margin: 0;
+.item-main {
+    margin-bottom: 15px;
 }
 
-p {
-    padding-left: 35px;
-    margin-top: 10px;
+.item-main__title {
+    margin: 0 0 7px 10px;
+    color: rgb(90, 90, 90);
 }
 
-.bg-code {
-    display: block;
-    background-color: rgba(191, 173, 80, 0.541);
-    color: black;
-}
-
-.bg-code p,
-.bg-pink p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.item-main__text {
+    padding: 15px 26px;
     color: rgb(58, 58, 58);
+    text-align: justify;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
 }
 
-.bg-pink {
+.item-main__text_bg-lemon {
+    background-color: rgba(191, 173, 80, 0.541);
+}
+
+.item-main__text_bg-pink {
     background-color: #D9BABA;
 }
+
