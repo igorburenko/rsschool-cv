@@ -139,11 +139,13 @@ body {
 
 .item-main__text {
     padding: 15px 26px;
-    color: rgb(58, 58, 58);
+    /*color: rgb(58, 58, 58);*/
     text-align: justify;
     font-size: 14px;
     color: rgb(92, 92, 92);
+
 }
+
 
 .item-main__text_bg-lemon {
     background-color: rgba(191, 173, 80, 0.541);
